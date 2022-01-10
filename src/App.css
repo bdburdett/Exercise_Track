@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* tr:nth-child(even) {
+  background-color: #aaaaaa8e;
+} */
+
+tr:hover {
+  background-color: rgba(0, 0, 0, 0.151);
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #000000;
+  color: white;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: rgb(255, 255, 255);
+}
